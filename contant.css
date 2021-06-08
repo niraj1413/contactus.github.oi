@@ -1,0 +1,151 @@
+h1{
+    text-align: center;
+    font-family:cursive;
+    font-weight: 1000;
+    font-size: 50px;
+    color: blue;
+    padding: 30px;
+    
+
+}
+
+.icon{
+    text-align:center;
+    
+}
+.img1{
+    border: 0px solid black;
+    border-radius: 190px;
+    width: 80px;
+
+}
+.img2{
+    border: 0px solid black;
+    border-radius: 190px;
+    width:80px;
+}
+.img3{
+    border: 0px solid black;
+    border-radius: 190px;
+    width:80px;
+}
+.img4{
+    border: 0px solid black;
+    border-radius: 190px;
+    width:75px;
+}
+.img1:hover{
+    filter:blur();
+    filter:brightness() ;
+    filter: drop-shadow(5px 5px 5px black);
+}
+.img2:hover{
+        filter:blur();
+    filter:brightness() ;
+    filter: drop-shadow(5px 5px 5px black);
+
+}
+.img3:hover{
+    filter:blur();
+    filter:brightness() ;
+    filter: drop-shadow(5px 5px 5px black);
+
+}
+.img4:hover{
+    filter:blur();
+    filter:brightness() ;
+    filter: drop-shadow(5px 5px 5px black);
+
+}
+header{
+    background-color: aqua;
+    background-attachment: fixed;
+}
+.form{
+    background-color: cornsilk;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+    
+    
+}
+.form:hover{
+    filter:blur();
+    filter:brightness() ;
+    filter: drop-shadow(5px 5px 5px black);
+}
+form:hover{
+    filter:blur();
+    filter:brightness() ;
+    filter: drop-shadow(5px 5px 5px black);
+
+}
+
+    .fi{
+    padding: 20px;
+    border-radius: 15px;
+}
+.fp{
+    padding: 10px;
+}
+.submit{
+    text-align: center;
+    
+
+}
+body{
+    background-color: silver;
+    margin: 0px;
+    text-transform: capitalize;
+
+}
+.fa{
+    padding: 20px;
+    line-height: 10px;
+    text-decoration: none;
+    color: black;
+    font-size:20px ;
+    }
+footer{
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+
+}
+.fa:hover{
+    text-shadow: 5px 5px 5px black;
+    color: rgb(12, 22, 117);
+}
+.any{
+    animation: moving 8s ease 0s infinite alternate both running;
+    background-color: blue;
+    border-radius:  50px;
+    display:inline-block;
+    color: burlywood;
+    font-size: 2.2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    padding: 1em 2em 1.1em ;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-top: 20px;
+} @keyframes moving {
+    0%{
+        left:0;
+        box-shadow: 10px ,10px, 10px rgba(0, 0, 0,1);
+    }
+    100%{
+         left: 100%;
+         box-shadow: 50px,70px,70px rgba(0, 0, 0,0.6);
+    }
+}
